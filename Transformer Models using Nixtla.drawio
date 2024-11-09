@@ -1,9 +1,62 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Page-1" id="17Lqxgr3aHMJ5lonMQt2">
-    <mxGraphModel>
+    <mxGraphModel dx="1772" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nZptoVI3_hiIDj9SmWM7-1" target="nZptoVI3_hiIDj9SmWM7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-1" value="General Flow of Transformer using Neural Forecast" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="120" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nZptoVI3_hiIDj9SmWM7-3" target="nZptoVI3_hiIDj9SmWM7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-3" value="Data Input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nZptoVI3_hiIDj9SmWM7-5" target="nZptoVI3_hiIDj9SmWM7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-5" value="Data Prepocessing &amp;amp; Exogenous Variables" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nZptoVI3_hiIDj9SmWM7-8" target="nZptoVI3_hiIDj9SmWM7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-8" value="Train-Test&amp;nbsp;&lt;div&gt;Validation&amp;nbsp;&lt;/div&gt;&lt;div&gt;Split&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="787.5" y="95" width="117.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nZptoVI3_hiIDj9SmWM7-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="846.25" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-10" value="Data Modelling&lt;div&gt;1. iTranformer&lt;/div&gt;&lt;div&gt;2. PatchTST&lt;/div&gt;&lt;div&gt;3. TimesNet&lt;/div&gt;&lt;div&gt;4. FEDformer&lt;/div&gt;&lt;div&gt;5. Informer&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="786.25" y="230" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nZptoVI3_hiIDj9SmWM7-16" target="nZptoVI3_hiIDj9SmWM7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-16" value="Model Evaluation" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="786.25" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nZptoVI3_hiIDj9SmWM7-18" target="nZptoVI3_hiIDj9SmWM7-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-18" value="Data Visualization" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="779.37" y="600" width="133.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-22" value="Plot dan Nilai Matriks" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="773.13" y="730" width="146.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nZptoVI3_hiIDj9SmWM7-24" target="nZptoVI3_hiIDj9SmWM7-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZptoVI3_hiIDj9SmWM7-24" value="Hyperparameter Tuning" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="786.25" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
