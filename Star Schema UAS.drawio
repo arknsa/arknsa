@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Fact_Kunjungan">
-    <mxGraphModel dx="523" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1059" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Fact_Aktivitas" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="339" y="110" width="160" height="216" as="geometry">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Fact_Kunjungan" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="339" y="110" width="160" height="190" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -27,11 +27,8 @@
         <mxCell id="_yFJOciwRXAxod_1XhJ0-10" value="Durasi" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry y="138" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_yFJOciwRXAxod_1XhJ0-11" value="Jenis_Aktivitas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="_yFJOciwRXAxod_1XhJ0-12" value="Tanggal_Kunjungan" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry y="164" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_yFJOciwRXAxod_1XhJ0-12" value="Tanggal_Aktivitas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
-          <mxGeometry y="190" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Dim_User" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="89" y="100" width="160" height="190" as="geometry">
@@ -237,12 +234,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Fact_Denda" id="CnG5uo0MceXRfbWcEGyc">
-    <mxGraphModel dx="392" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1323" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="EOCf6ko9ivX52_OSnhEN-0" />
         <mxCell id="EOCf6ko9ivX52_OSnhEN-1" parent="EOCf6ko9ivX52_OSnhEN-0" />
         <mxCell id="EOCf6ko9ivX52_OSnhEN-2" value="Fact_Denda" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="EOCf6ko9ivX52_OSnhEN-1">
-          <mxGeometry x="339" y="110" width="160" height="216" as="geometry">
+          <mxGeometry x="339" y="110" width="160" height="242" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -269,6 +266,9 @@
         </mxCell>
         <mxCell id="EOCf6ko9ivX52_OSnhEN-10" value="Durasi_Denda" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="EOCf6ko9ivX52_OSnhEN-2">
           <mxGeometry y="190" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mvPH79eqXuAAGxzD0lLD-0" value="Biaya_Denda" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="EOCf6ko9ivX52_OSnhEN-2">
+          <mxGeometry y="216" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EOCf6ko9ivX52_OSnhEN-12" value="Dim_Buku" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="EOCf6ko9ivX52_OSnhEN-1">
           <mxGeometry x="89" y="100" width="160" height="268" as="geometry">
@@ -305,11 +305,11 @@
         <mxCell id="EOCf6ko9ivX52_OSnhEN-22" value="Stok" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EOCf6ko9ivX52_OSnhEN-12">
           <mxGeometry y="242" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OXso2Ft0kQtLLVnPy9rp-1" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="EOCf6ko9ivX52_OSnhEN-1" source="EOCf6ko9ivX52_OSnhEN-24" target="EOCf6ko9ivX52_OSnhEN-10">
+        <mxCell id="mvPH79eqXuAAGxzD0lLD-1" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="EOCf6ko9ivX52_OSnhEN-1" source="EOCf6ko9ivX52_OSnhEN-24" target="mvPH79eqXuAAGxzD0lLD-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EOCf6ko9ivX52_OSnhEN-24" value="Dim_Waktu" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="EOCf6ko9ivX52_OSnhEN-1">
-          <mxGeometry x="339" y="390" width="160" height="190" as="geometry">
+          <mxGeometry x="339" y="430" width="160" height="190" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
